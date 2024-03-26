@@ -21,8 +21,6 @@
     "fluent-ffmpeg": "^2.1.2"
   },
   "devDependencies": {
-    "@types/fluent-ffmpeg": "^2.1.24",
-    "@types/node": "^20.11.30",
     "chai": "^5.1.0",
     "mocha": "^10.3.0"
   }
