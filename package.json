@@ -1,0 +1,29 @@
+{
+  "name": "pvrender",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "A package for using canvas to render a video through ffmpeg",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "video"
+  ],
+  "author": "Ryan Lindemulder",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "@types/node": "^20.11.30",
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  }
+}
