@@ -1,6 +1,6 @@
 {
   "name": "pvrender",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "description": "A package for using canvas to render a video through ffmpeg",
   "main": "index.js",
